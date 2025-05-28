@@ -1,12 +1,12 @@
 // vite.config.js
-import { defineConfig } from 'vite';
+import { resolve } from 'path';
+import { defineConfig } from "vite";
+import handlebars from "vite-plugin-handlebars";
 
 export default defineConfig({
-  // css: {
-  //   preprocessorOptions: {
-  //     scss: {
-  //       additionalData: `@import "./variables.scss";` // example
-  //     }
-  //   }
-  // }
+  plugins: [
+    handlebars({
+      partialDirectory: resolve(__dirname, "partials"),
+    }),
+  ],
 });
