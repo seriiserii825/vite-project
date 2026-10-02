@@ -1,3 +1,6 @@
-@use "@/modules/header/my-header.scss";
-@use "@/modules/footer/my-footer.scss";
-@use "@/modules/my-menu/my-menu.scss";
+@use "@/src/scss/blocks/base";
+@use "@/src/scss/blocks/variables";
+@use "@/modules/header/my-header";
+@use "@/modules/footer/my-footer";
+@use "@/modules/my-menu/my-menu";
+@use "@/modules/home-intro/home-intro";
