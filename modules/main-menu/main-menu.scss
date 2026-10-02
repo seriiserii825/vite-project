@@ -2,5 +2,13 @@
   display: flex;
   gap: 32px;
   padding: 32px;
-  border-bottom: 1px solid #000;
+  a {
+    padding: 16px;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.4s;
+    &:hover {
+      border-color: white;
+    }
+  }
 }
