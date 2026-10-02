@@ -27,18 +27,9 @@
     line-height: 1.6;
     color: #fff;
   }
-  &__btn {
-    display: inline-block;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 4px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    &:hover {
-      background-color: #0056b3;
-    }
+  &__footer {
+    display: flex;
+    align-items: center;
+    gap: 32px;
   }
 }

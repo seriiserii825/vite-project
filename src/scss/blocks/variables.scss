@@ -1,15 +1,8 @@
 :root {
-  --accent: green;
-  --font-1: 'Arial', sans-serif;
-  --font-2: 'Courier New', monospace;
-}
-
-body {
-  font-family: var(--font-1);
-  color: var(--accent);
-}
-
-h2 {
-  font-family: var(--font-2);
-  color: var(--accent);
+  --accent: #007bff;
+  --accent-hover: #0056b3;
+  --contrast: #ff0000;
+  --contrast-hover: #cc0000;
+  --font-1: "Arial", sans-serif;
+  --font-2: "Courier New", monospace;
 }
