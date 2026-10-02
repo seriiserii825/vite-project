@@ -5,13 +5,9 @@
     <title>Vite + SCSS</title>
   </head>
   <body>
-    <header class="main-header">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-      </ul>
-    </header>
-    {{> my-header }}
+    <section>{{> header/my-header }}</section>
+    <h2>Home</h2>
+    <section>{{> footer/my-footer }}</section>
     <script type="module" src="./src/js/main.ts"></script>
   </body>
 </html>

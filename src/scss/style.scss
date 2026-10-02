@@ -1,6 +1,3 @@
-@use "blocks/variables";
-@use "blocks/base";
-@use "blocks/main-header";
-body {
-  background: red;
-}
+@use "@/modules/header/my-header.scss";
+@use "@/modules/footer/my-footer.scss";
+@use "@/modules/my-menu/my-menu.scss";
